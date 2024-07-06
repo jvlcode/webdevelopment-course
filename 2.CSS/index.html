@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title>Simple Ecommerce Store</title>
+        <style>
+            /* Internal CSS */
+            /* Classes and IDs */
+            #navEl {
+                background-color: #007bff;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .product {
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+
+            .nav-link {
+                color:white;
+                text-decoration: none;
+            }
+            .nav-link:hover {
+                text-decoration: underline;
+            }
+            /* Colors */
+            header {
+                background-color: #343a40;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+
+            /* Positioning */
+            footer {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: #f8f9fa;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            /* Fonts */
+            body {
+                font-family:Arial, Helvetica, sans-serif
+            }
+
+            h1, h2, h3 {
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+           
+            /* Advanced Selector */
+           .product:nth-child(odd) {
+                background-color: #dcdee0;
+            }
+            
+            /* Shadow Effect */
+            .product:hover {
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+
+            /* Transformations and Animations */
+            .product {
+                transition: transform 0.3s ease; 
+            }
+
+            .product:hover {
+                transform: scale(1.05);
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <!-- Inline CSS -->
+        <!-- <header style="background-color :#f0f0f0; padding: 10px; text-align: center;">
+            <h1>Welcome to the Website</h1>
+        </header> -->
+
+        <header>
+            <h1>Welcome to the Website</h1>
+        </header>
+
+        <nav id="navEl">
+            <ul>
+                <li><a class="nav-link" href="products.html">Products</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+
+        <main>
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="https://placehold.co/100x80" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>Description of Product 1</p>
+                <a href="#">Buy Now</a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="https://placehold.co/100x80" alt="Product 1">
+                <h2>Product 2</h2>
+                <p>Description of Product 2</p>
+                <a href="#">Buy Now</a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="https://placehold.co/100x80" alt="Product 1">
+                <h2>Product 3</h2>
+                <p>Description of Product 3</p>
+                <a href="#">Buy Now</a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="https://placehold.co/100x80" alt="Product 1">
+                <h2>Product 4</h2>
+                <p>Description of Product 4</p>
+                <a href="#">Buy Now</a>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product">
+                <img src="https://placehold.co/100x80" alt="Product 1">
+                <h2>Product 5</h2>
+                <p>Description of Product 5</p>
+                <a href="#">Buy Now</a>
+            </div>
+        </main>
+
+        <footer>
+            <p>2024 Simple Ecommerce Store. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
